@@ -1,0 +1,109 @@
+
+ body{
+   background-color: #0e0e0e;
+ }
+
+ .container{
+    text-align: center;
+    background: url('img/bg3.jpg');
+    height: 60%;
+    width: 50%;
+    position: absolute;
+    margin: 150px 500px 100px; 
+    border-radius: 20px;
+    border : 2px;
+    border-style: solid;
+  }
+  .cinzaEscuro{
+    top: 50%;
+    margin-top: -200px;
+    width: 250px;
+    height: 60px;
+    right: 50px;
+    position: absolute;
+    border-style: solid;
+    border-width:thin;
+    border-radius: 5px;
+    padding-bottom: 5px;
+  }
+  b{
+    position: relative;
+    top: 10px;
+  }
+  .preto{
+    border: solid 2px;
+    top: 50%;
+    margin-top: -135px;
+    position: absolute;
+    background-color: #444;
+    height: 300px;
+    width: 250px;
+    right: 50px;
+    border-radius: 5px;
+  }
+  .cinzaClaro{
+    position: absolute;
+    border: solid 1px white;
+    left: 50%;
+    margin-left: -370px;
+    top: 50%;
+    margin-top: -190px;
+    height: 350px;
+    width: 500px;
+    background-color:rgb(39, 36, 36);
+  }
+  .cinzaEscuro{
+    background-color: #b6b5b5;
+  }
+  .bnt{
+    margin: 10px;
+    background-color: black;
+    color: snow;
+    border-radius: 5px;
+    height: 30px;
+    width: 50px;
+  }
+  .teclado2{
+    font-size: 11px;
+    position: absolute;
+    bottom: 20px;
+    left: 5px;
+    color: black;
+  }
+
+  .btn-light{
+      color: black;
+      width: 80px;
+      height: 30px;
+      padding: 2px;
+  }
+  .btn-warning{
+    width: 80px;
+    height: 30px;
+    padding: 2px;
+
+  }
+  .btn-success{
+      
+    width: 90px;
+    height: 30px;
+    padding: 2px;
+      
+  }
+  .btn-outline-success{
+      margin-top: 20px;
+  }
+  a#p1{
+      position: absolute;
+      bottom: 38%;
+      left: 32%;
+  }
+  h2{
+      position: relative;
+      top: 10px;
+      background-color: white;
+      border: solid 1px black;
+  }
+  p#resultado{
+      background-color: white;
+  }

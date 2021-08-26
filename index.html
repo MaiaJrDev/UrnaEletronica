@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Urna Eletronica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script type="text/javascript" src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+          <h2>Urna Eletrônica</h2>
+            <div class="branco">
+                <div class="cinzaClaro">
+                    <br/><br/><p style="color: white;">Digitos</p>
+                    <p style="color: white;">(Use o Teclado ao Lado)</p>
+                    <form action="">
+                        <input size="1" id="campo1" value="" maxlength="1" type="text" readonly="readonly"/>
+                        <input size="1" id="campo2" value="" maxlength="1" type="text" readonly="readonly"/>
+                    </form>
+                </div>
+                <div class="cinzaEscuro">
+                    <b>JUSTIÇA<br>ELEITORAL</b> 
+                </div>
+                <div class="preto">
+                    <button class="bnt click" onclick="inserir(1)">1</button>
+                    <button class="bnt click" onclick="inserir(2)">2</button>
+                    <button class="bnt click" onclick="inserir(3)">3</button>
+                    <button class="bnt click" onclick="inserir(4)">4</button>
+                    <button class="bnt click" onclick="inserir(5)">5</button>
+                    <button class="bnt click" onclick="inserir(6)">6</button>
+                    <button class="bnt click" onclick="inserir(7)">7</button>
+                    <button class="bnt click" onclick="inserir(8)">8</button>
+                    <button class="bnt click" onclick="inserir(9)">9</button>
+                    <button class="bnt click" onclick="inserir(0)">0</button>
+                    <div class="teclado2">
+                        <button class="btn btn-light" onclick="branco()">BRANCO</button>
+                        <button class="btn btn-warning" onclick="corrige()">CORRIGE</button>
+                        <button class="btn btn-success" onclick="votar()">CONFIRMA</button>
+                    </div>
+                </div>
+                <a  href="resultado.html" id="p1"><button class="btn btn-outline-success">Resultado</button></a>
+            </div>
+            
+        </div>
+    </body>
+</html>
